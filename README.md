@@ -7,4 +7,7 @@ It includes guava 19.0 as a runtime dependency, lombok as a provided dependency 
 
 Using it is simple: after installing the archetype locally (with `mvn install`), you can use it by invoking the following command:
 
-   mvn archetype:generate -DarchetypeGroupId=com.autumncode -DarchetypeArtifactId=starter-archetype -DarchetypeVersion=1.0-SNAPSHOT
+    mvn archetype:generate \
+        -DarchetypeGroupId=com.autumncode \
+        -DarchetypeArtifactId=starter-archetype \
+        -DarchetypeVersion=1.0-SNAPSHOT
