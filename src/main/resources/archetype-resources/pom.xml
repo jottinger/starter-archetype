@@ -33,6 +33,12 @@
                 <artifactId>logback-classic</artifactId>
                 <version>${logbackVersion}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.4</version>
+            </dependency>
+
 
             <!-- compilation resources -->
             <dependency>
@@ -69,6 +75,10 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
 
         <!-- compilation resources -->
