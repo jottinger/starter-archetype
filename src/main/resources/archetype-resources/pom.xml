@@ -17,7 +17,7 @@
         <h2Version>1.4.191</h2Version>
         <guavaVersion>19.0</guavaVersion>
         <logbackVersion>1.1.6</logbackVersion>
-        <assertjVersion>3.0.0</assertjVersion>
+        <assertGuavajVersion>3.0.0</assertGuavajVersion>
     </properties>
 
     <dependencyManagement>
@@ -61,7 +61,7 @@
             <dependency>
                 <groupId>org.assertj</groupId>
                 <artifactId>assertj-guava</artifactId>
-                <version>${assertjVersion}</version>
+                <version>${assertjGuavaVersion}</version>
             </dependency>
 
         </dependencies>
