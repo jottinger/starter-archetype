@@ -2,13 +2,12 @@ package ${package};
 
 import org.testng.annotations.Test;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.is;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class AppTest {
     @Test
     public void testGreeting() {
         App app=new App();
-        assertThat(app.getGreeting(), is("Hello, world"));
+        assertThat(app.getGreeting()).isEqualTo("hello, world");
     }
 }
