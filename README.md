@@ -7,7 +7,7 @@ It includes [guava](https://github.com/google/guava) as a runtime dependency, [l
 
 It also sets the project JDK to Java 8, and includes Maven's shade plugin to generate an executable jar.
 
-Using it is simple: after installing the archetype locally (cloning this repository, then run `mvn install`), you can use it by invoking the following command:
+Using it is simple: after installing the archetype locally (clone this repository, then run `mvn install`), you can use it by invoking the following command:
 
     mvn archetype:generate \
         -DarchetypeGroupId=com.autumncode \
