@@ -14,7 +14,7 @@
         <javaVersion>1.8</javaVersion>
         <testngVersion>6.9.10</testngVersion>
         <lombokVersion>1.16.8</lombokVersion>
-        <h2Version>1.4.191</h2Version>
+        <h2Version>1.4.192</h2Version>
         <guavaVersion>19.0</guavaVersion>
         <logbackVersion>1.1.6</logbackVersion>
         <assertjGuavaVersion>3.0.0</assertjGuavaVersion>
